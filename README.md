@@ -113,20 +113,4 @@ jupyter nbconvert --to html "Supernovae/cosmic_distnaces.ipynb"
 
 Be mindful that MCMC samplers can be time-consuming; use cached outputs where appropriate or reduce iteration counts for quick testing.
 
-## What changed / enhancements in this README
 
-This README consolidates information from the per-folder READMEs and clarifies:
-- Which files are required and where they should live
-- How to set up an environment and run the notebooks
-- Caching behaviour and pitfalls (h5py + emcee, Jupyter in-memory state)
-
-## Suggestions for future repository improvements (optional)
-
-- Add a top-level `requirements.txt` or `environment.yml` for reproducible installs.
-- Add smaller example datasets (or scripts to download them) so newcomers can run the notebooks quickly.
-- Add a `Makefile` or `justfile` with commands to run tests, build caches, or export figures.
-- Add a LICENSE file to clarify reuse terms.
-
-## Contact / Attribution
-
-If you have questions about the analyses or reproduce the results, open an issue or contact the repository owner.
